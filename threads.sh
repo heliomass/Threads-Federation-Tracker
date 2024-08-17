@@ -53,7 +53,7 @@ while [ $# -gt 0 ]; do
 	esac
 done
 
-# Ensur a CSV fil was provied
+# Ensure a CSV file was provied
 if [[ -z "$CSV" ]]; then
 	echo 'Please provide an argument to --csv' >&2
 	exit 1
