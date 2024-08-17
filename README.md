@@ -29,7 +29,7 @@ The output will be put in a new CSV file postfixed with today's date:
 ```csv
 cat threads_accounts_20240817.csv
 heliomass,FEDERATED
-mosseri,mosseri
+mosseri,FEDERATED
 ```
 
 Be aware if you're editing the input CSV file in a spreadsheet application, the encoding can sometimes cause an issue with the script. The best approach is to do edit it using a text editor. The outputted CSV file may of course be safely opened in a spreadsheet application of your choice.
